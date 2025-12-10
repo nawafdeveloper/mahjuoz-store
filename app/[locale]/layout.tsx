@@ -1,11 +1,11 @@
+export const runtime = 'edge';
+
 import "../globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
 import { Rubik } from "next/font/google";
-
-export const runtime = 'edge';
 
 const rubik = Rubik({
   subsets: ["latin"],
