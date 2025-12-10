@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+
 
 import StoreContent from '@/components/store-content';
 import StoreHeader from '@/components/store-header'

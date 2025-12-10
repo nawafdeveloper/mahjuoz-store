@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+
 
 import "../globals.css";
 import { hasLocale, NextIntlClientProvider } from "next-intl";

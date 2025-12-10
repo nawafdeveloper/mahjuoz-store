@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+
 
 import TopActionBar from '@/components/top-action-bar';
 import { fetchStorePage } from '@/lib/read';

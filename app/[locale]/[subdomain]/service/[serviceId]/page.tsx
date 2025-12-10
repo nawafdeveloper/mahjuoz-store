@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+
 
 import { fetchServicePage } from '@/lib/read';
 import { notFound } from 'next/navigation';
