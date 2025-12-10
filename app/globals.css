@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --card: #F8F9FB;
+  --primary: #006BFF;
+  --secondary-text: #476788;
+  --hover-bg: #F0F3F8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-secondary-text: var(--secondary-text);
+  --color-hover-bg: var(--hover-bg);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+#cc-main {
+  --cc-font-family: 'Rubik', system-ui, -apple-system, sans-serif;
+  --cc-modal-border-radius: .5rem;
+  --cc-btn-border-radius: .4rem;
+  --cc-modal-transition-duration: .25s;
+  --cc-modal-margin: 1rem;
+  --cc-z-index: 2147483647;
+
+  --cc-btn-primary-bg: var(--primary);
+  --cc-btn-primary-border-color: var(--primary);
+  --cc-btn-primary-hover-bg: #0060E7;
+  --cc-btn-primary-hover-border-color: #0060E7;
+}
