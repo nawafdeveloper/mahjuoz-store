@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { getMessages } from "next-intl/server";
 import { Rubik } from "next/font/google";
 
+export const runtime = 'edge';
+
 const rubik = Rubik({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800", "900"],

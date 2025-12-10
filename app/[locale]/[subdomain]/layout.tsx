@@ -3,6 +3,8 @@ import { fetchStorePage } from '@/lib/read';
 import { notFound } from 'next/navigation';
 import React from 'react'
 
+export const runtime = 'edge';
+
 type Metadata = {
     title?: string;
     description?: string;
