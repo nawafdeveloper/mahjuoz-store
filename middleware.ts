@@ -11,7 +11,7 @@ export function middleware(req: NextRequest) {
     if (
         subdomain &&
         subdomain !== process.env.NEXT_PUBLIC_ROOT_DOMAIN &&
-        subdomain !== 'localhost' &&
+        subdomain !== 'mahjuoz' &&
         subdomain !== '127'
     ) {
         const restOfPath = pathname.replace(`/${locale}`, '');

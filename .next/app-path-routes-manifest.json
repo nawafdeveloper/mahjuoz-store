@@ -1,0 +1,8 @@
+{
+  "/[locale]/[subdomain]/page": "/[locale]/[subdomain]",
+  "/[locale]/[subdomain]/service/[serviceId]/page": "/[locale]/[subdomain]/service/[serviceId]",
+  "/[locale]/page": "/[locale]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico"
+}

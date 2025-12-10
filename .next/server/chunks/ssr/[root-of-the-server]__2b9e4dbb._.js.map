@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%5Blocale%5D/page.tsx"],"sourcesContent":["export default async function StorePage() {\n  return null;\n}"],"names":[],"mappings":"qUAAe,eAAe,IAC5B,OAAO,IACT"}

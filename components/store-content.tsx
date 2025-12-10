@@ -87,7 +87,7 @@ export default function StoreContent({ locale, categories, layout, store, locati
                             {services.map((item) => (
                                 <div key={item.id}>
                                     {item.services.map((item) => (
-                                        <Link key={item.id} href={`http://${store.webIdentifier}.localhost:3000/${locale}/service/${item.id}`} className='flex flex-col space-y-2 overflow-hidden rounded-md'>
+                                        <Link key={item.id} href={`http://${store.webIdentifier}.mahjuoz/${locale}/service/${item.id}`} className='flex flex-col space-y-2 overflow-hidden rounded-md'>
                                             <Image
                                                 src={item.images[0]}
                                                 alt={`${item.titleEn} - Image`}
@@ -132,7 +132,7 @@ export default function StoreContent({ locale, categories, layout, store, locati
                             {services.map((item) => (
                                 <div key={item.id}>
                                     {item.services.map((item) => (
-                                        <Link key={item.id} href={`http://${store.webIdentifier}.localhost:3000/${locale}/service/${item.id}`} className='flex flex-row gap-x-3 p-3 rounded-md bg-gray-50'>
+                                        <Link key={item.id} href={`http://${store.webIdentifier}.mahjuoz/${locale}/service/${item.id}`} className='flex flex-row gap-x-3 p-3 rounded-md bg-gray-50'>
                                             <Image
                                                 src={item.images[0]}
                                                 alt={`${item.titleEn} - Image`}
