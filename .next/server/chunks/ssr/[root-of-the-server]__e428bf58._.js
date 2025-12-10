@@ -1,3 +1,0 @@
-module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},43619,a=>{a.n(a.i(79962))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},30419,a=>{a.n(a.i(27641))},43822,a=>{a.n(a.i(21506))},72272,a=>{"use strict";var b=a.i(7997),c=a.i(7871);a.i(70396);var d=a.i(73727);async function e({params:a}){let{locale:e,serviceId:f}=await a,g=await (0,c.fetchServicePage)(f);if(!g.success||!g.data?.data.service)return(0,d.notFound)();let h=g.data.data.service;return Array.isArray(h.images)&&h.images,(0,b.jsxs)("div",{children:["service id: ",h.id]})}a.s(["default",()=>e])}];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__e428bf58._.js.map
