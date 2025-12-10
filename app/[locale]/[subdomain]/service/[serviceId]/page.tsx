@@ -1,6 +1,8 @@
 import { fetchServicePage } from '@/lib/read';
 import { notFound } from 'next/navigation';
 
+export const runtime = 'edge';
+
 export default async function page({ params }: { params: Promise<{ serviceId: string; locale: string }> }) {
   const { locale, serviceId } = await params;
   const serviceRes = await fetchServicePage(serviceId);

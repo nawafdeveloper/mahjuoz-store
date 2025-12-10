@@ -3,6 +3,8 @@ import StoreHeader from '@/components/store-header'
 import { fetchStorePage } from '@/lib/read';
 import { notFound } from 'next/navigation';
 
+export const runtime = 'edge';
+
 export default async function page({ params }: { params: Promise<{ subdomain: string; locale: string }> }) {
     const { subdomain, locale } = await params;
     const storeRes = await fetchStorePage(subdomain);
